@@ -1,0 +1,199 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+   min-height: auto;
+   
+}
+header{
+    width: 100%;
+    float: left;
+    height: 130px;
+   
+}
+.htop{
+    width: 100%;
+    height: 60px;
+}
+.htop>a{
+    font-size: 50px;
+}
+.hbot{
+    width: 100%;
+    background-color: rgb(39, 56, 23);
+    height: 70px;
+}
+ul li a {
+    color: black;
+}
+nav{
+    width:100%;
+    
+    height: 30px;
+    float: left;
+    background-color: rgb(148, 117, 117);
+   
+}
+.hmenu>li>a{
+
+    text-decoration: none;
+    font-size: 1,1rem;
+    color: rgba(219, 218, 218, 0.842);
+
+}
+.hmenu{
+    list-style: none;
+    
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top:15px;
+    left: 10px;
+    width: 140px;
+    background-color: rgba(220, 211, 211, 0.782);
+    display: none;
+}
+.hbot>a{
+    font-size: 70px;
+     color: rgb(204, 201, 201);
+     font-family:Georgia, 'Times New Roman', Times, serif
+    
+    
+}
+.smenu>li{
+    display: block;
+    border-bottom:1px solid black;
+    margin: 10px;
+}
+.hmenu>li>a{
+
+    text-decoration: none;
+    font-size: 1,2rem;
+    color: #FFF;
+}
+.smenu>li>a{
+    text-decoration: none;
+}
+.smenu>li:hover {
+    background-color: rgb(231, 221, 221);
+    
+}
+.hmenu>li:hover .smenu{
+   display: block;
+  
+   
+}
+.hmenu>li  :hover{
+    color: darkturquoise;
+}
+article{
+    width: 100%;
+    float: left;
+    min-height: 200px;
+    
+    
+}
+.h0{
+    width: 59%;
+    float: left;
+    height: 305px;
+    
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.h1{
+    width: 39%;
+    float: left;
+    height: 150px;
+    
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;  padding: 0px;
+}
+.h2{
+    width: 39%;
+    float: left;
+    height: 150px;
+   
+    margin: 0 5px 5px 5px;
+    border-radius: 5px;
+}
+.h3{
+    width: 33%;
+    float: left;
+    height: 150px;
+   
+    margin: 0px 0px 5px 5px;
+    border-radius: 5px;
+}
+.h4{
+    width: 33%;
+    float: left;
+    height: 150px;
+    
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+    padding: 0;
+}
+.h5{
+    width: 32%;
+    float: left;
+    height: 150px;
+   
+    margin: 0px 5px 5px 0px;
+    border-radius: 5px;
+}
+.h0>img{
+    width: 100%;
+    height: 305px;
+border-radius: 5px;
+
+    
+}
+.h1>a>img{
+    width: 100%;
+    height: 150px;
+    padding: 0;
+  
+}
+.h2>a>img{
+    width: 100%;
+    height: 150px;
+}
+.h3>a>img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.h4>a>img{
+    width: 100%;
+    height: 150px;
+}
+.h5>a>img{
+    width: 100%;  height: 150px;
+}
+footer{
+    font-size: 20px;
+   
+}
+.e1{
+    text-decoration: none;
+}
+.e1:hover {
+    color: cornflowerblue;
+}
+
